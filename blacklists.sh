@@ -251,17 +251,20 @@ loadblacklist \
   "lists-blocklist-de-all" \
   "http://lists.blocklist.de/lists/all.txt"
 
-loadblacklist \
-   "ipsec-pl" \
-   "http://doc.emergingthreats.net/pub/Main/RussianBusinessNetwork/RussianBusinessNetworkIPs.txt"
+# Last Updated 2-10-2012
+# loadblacklist \
+#   "ipsec-pl" \
+#   "http://doc.emergingthreats.net/pub/Main/RussianBusinessNetwork/RussianBusinessNetworkIPs.txt"
 
-loadblacklist \
-   "infiltrated.net" \
-   "http://www.infiltrated.net/blacklisted"
+# is Out 
+# loadblacklist \
+#   "infiltrated.net" \
+#   "http://www.infiltrated.net/blacklisted"
 
-loadblacklist \
-  "openbl-org-base" \
-  "http://www.openbl.org/lists/base.txt"
+# OpenBL.org is out of service. 
+# loadblacklist \
+#  "openbl-org-base" \
+#  "http://www.openbl.org/lists/base.txt"
 
 loadblacklist \
       "ci-army-malcious" \
@@ -283,29 +286,50 @@ loadblacklist \
       "spamhaus-org-lasso" \
         "http://www.spamhaus.org/drop/drop.lasso"
 
-loadblacklist \
-      "dshield.org-top-10-2" \
-        "http://feeds.dshield.org/top10-2.txt"
+# 2 Times here and here "special cases, custom formats blacklists"
+# loadblacklist \
+#      "dshield.org-top-10-2" \
+#        "http://feeds.dshield.org/top10-2.txt"
 
 #
 # bot nets
 #
-# https://palevotracker.abuse.ch/blocklists.php
-loadblacklist \
-  "palevotracker-abuse-ch" \
-  "https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist"
+# https://palevotracker.abuse.ch/blocklists.php 
+# Palevo Tracker has been discontinued
+#loadblacklist \
+#  "palevotracker-abuse-ch" \
+#  "https://palevotracker.abuse.ch/blocklists.php?download=ipblocklist"
 
 # https://spyeyetracker.abuse.ch/blocklist.php
-loadblacklist \
-  "spyeyetracker-abuse-ch" \
-  "https://spyeyetracker.abuse.ch/blocklist.php?download=ipblocklist"
+# SpyEye Tracker has been disconntinued
+# loadblacklist \
+#  "spyeyetracker-abuse-ch" \
+#  "https://spyeyetracker.abuse.ch/blocklist.php?download=ipblocklist"
 
 # https://zeustracker.abuse.ch/blocklist.php
 loadblacklist \
   "zeustracker-abuse-ch-badips" \
   "https://zeustracker.abuse.ch/blocklist.php?download=badips"
+  
+# from danger.rulez : checks sshd logs from syslog and looks for Failed Login attempts
+loadblacklist \
+  "danger.rulez.sk" \
+  "http://danger.rulez.sk/projects/bruteforceblocker/blist.php"
 
-
+# from greensnow  : Scan Port, TFTP, FTP, POP3, mod_security (XSS), IMAP, SMTP, SSH, cPanel.
+loadblacklist \
+  "greensnow.co" \
+  "http://blocklist.greensnow.co/greensnow.txt"
+  
+# from firehol  : firehol_level1.netset
+loadblacklist \
+  "firehol_level1.netset" \
+  "https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level1.netset"
+  
+# from firehol  : stopforumspam_7d.ipset
+loadblacklist \
+  "stopforumspam_7d.ipset" \
+  "https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/stopforumspam_7d.ipset
 #
 # special cases, custom formats blacklists
 #
