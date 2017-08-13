@@ -306,325 +306,433 @@ loadblacklist \
   "https://zeustracker.abuse.ch/blocklist.php?download=badips"
 
 # Big listing
- "banjori-iplist.txt"\ 
+"banjori-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/banjori-iplist.txt"
 
-"bebloh-iplist.txt"\ 
+loadblacklist \ 
+loadblacklist \ 
+"bebloh-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/bebloh-iplist.txt"
 
-"c2-ipmasterlist.txt"\ 
+loadblacklist \ 
+loadblacklist \ 
+"c2-ipmasterlist.txt" \
 "http://osint.bambenekconsulting.com/feeds/c2-ipmasterlist.txt"
 
-"cl-iplist.txt"\ 
+loadblacklist \ 
+"cl-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/cl-iplist.txt"
 
-"cryptowall-iplist.txt"\ 
+loadblacklist \ 
+"cryptowall-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/cryptowall-iplist.txt"
 
-"dircrypt-iplist.txt"\ 
+loadblacklist \ 
+"dircrypt-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/dircrypt-iplist.txt"
 
-"dyre-iplist.txt"\ 
+loadblacklist \ 
+"dyre-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/dyre-iplist.txt"
 
-"geodo-iplist.txt"\ 
+loadblacklist \ 
+"geodo-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/geodo-iplist.txt"
 
-"hesperbot-iplist.txt"\ 
+loadblacklist \ 
+"hesperbot-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/hesperbot-iplist.txt"
 
-"matsnu-iplist.txt"\ 
+loadblacklist \ 
+"matsnu-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/matsnu-iplist.txt"
 
-"necurs-iplist.txt"\ 
+loadblacklist \ 
+"necurs-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/necurs-iplist.txt"
 
-"p2pgoz-iplist.txt"\ 
+loadblacklist \ 
+"p2pgoz-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/p2pgoz-iplist.txt"
 
-"pushdo-iplist.txt"\ 
+loadblacklist \ 
+"pushdo-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/pushdo-iplist.txt"
 
-"pykspa-iplist.txt"\ 
+loadblacklist \ 
+"pykspa-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/pykspa-iplist.txt"
 
-"qakbot-iplist.txt"\ 
+loadblacklist \ 
+"qakbot-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/qakbot-iplist.txt"
 
-"ramnit-iplist.txt"\ 
+loadblacklist \ 
+"ramnit-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/ramnit-iplist.txt"
 
-"ranbyus-iplist.txt"\ 
+loadblacklist \ 
+"ranbyus-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/ranbyus-iplist.txt"
 
-"simda-iplist.txt"\ 
+loadblacklist \ 
+"simda-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/simda-iplist.txt"
 
-"suppobox-iplist.txt"\ 
+loadblacklist \ 
+"suppobox-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/suppobox-iplist.txt"
 
-"symmi-iplist.txt"\ 
+loadblacklist \ 
+"symmi-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/symmi-iplist.txt"
 
-"tinba-iplist.txt"\ 
+loadblacklist \ 
+"tinba-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/tinba-iplist.txt"
 
-"volatile-iplist.txt"\ 
+loadblacklist \ 
+"volatile-iplist.txt" \
 "http://osint.bambenekconsulting.com/feeds/volatile-iplist.txt"
 
-"banlist.txt"\ 
+loadblacklist \ 
+"banlist.txt" \
 "https://www.binarydefense.com/banlist.txt"
 
-"all.txt"\ 
+loadblacklist \ 
+"all.txt" \
 "http://lists.blocklist.de/lists/all.txt"
 
-"apache.txt"\ 
+loadblacklist \ 
+"apache.txt" \
 "http://lists.blocklist.de/lists/apache.txt"
 
-"bots.txt"\ 
+loadblacklist \ 
+"bots.txt" \
 "http://lists.blocklist.de/lists/bots.txt"
 
-"bruteforcelogin.txt"\ 
+loadblacklist \ 
+"bruteforcelogin.txt" \
 "http://lists.blocklist.de/lists/bruteforcelogin.txt"
 
-"ftp.txt"\ 
+loadblacklist \ 
+"ftp.txt" \
 "http://lists.blocklist.de/lists/ftp.txt"
 
-"imap.txt"\ 
+loadblacklist \ 
+"imap.txt" \
 "http://lists.blocklist.de/lists/imap.txt"
 
-"mail.txt"\ 
+loadblacklist \ 
+"mail.txt" \
 "http://lists.blocklist.de/lists/mail.txt"
 
-"sip.txt"\ 
+loadblacklist \ 
+"sip.txt" \
 "http://lists.blocklist.de/lists/sip.txt"
 
-"ssh.txt"\ 
+loadblacklist \ 
+"ssh.txt" \
 "http://lists.blocklist.de/lists/ssh.txt"
 
-"strongips.txt"\ 
+loadblacklist \ 
+"strongips.txt" \
 "http://lists.blocklist.de/lists/strongips.txt"
 
-"Bogonsbogon-bn-agg.txt"\ 
+loadblacklist \ 
+"Bogonsbogon-bn-agg.txt" \
 "http://www.team-cymru.org/Services/Bogons/bogon-bn-agg.txt"
 
-"iprep.txt"\ 
+loadblacklist \ 
+"iprep.txt" \
 "http://www.chaosreigns.com/iprep/iprep.txt"
 
-"iprep.txt"\ 
+loadblacklist \ 
+"iprep.txt" \
 "http://www.chaosreigns.com/iprep/iprep.txt"
 
-"iprep.txt"\ 
+loadblacklist \ 
+"iprep.txt" \
 "http://www.chaosreigns.com/iprep/iprep.txt"
 
-"ci-badguys.txt"\ 
+loadblacklist \ 
+"ci-badguys.txt" \
 "http://cinsscore.com/list/ci-badguys.txt"
 
-"freespace-prefix.txt"\ 
+loadblacklist \ 
+"freespace-prefix.txt" \
 "http://www.cidr-report.org/bogons/freespace-prefix.txt"
 
-"dnsrd.txt"\ 
+loadblacklist \ 
+"dnsrd.txt" \
 "https://dataplane.org/dnsrd.txt"
 
-"dnsrdany.txt"\ 
+loadblacklist \ 
+"dnsrdany.txt" \
 "https://dataplane.org/dnsrdany.txt"
 
-"dnsversion.txt"\ 
+loadblacklist \ 
+"dnsversion.txt" \
 "https://dataplane.org/dnsversion.txt"
 
-"sipinvitation.txt"\ 
+loadblacklist \ 
+"sipinvitation.txt" \
 "https://dataplane.org/sipinvitation.txt"
 
-"sipquery.txt"\ 
+loadblacklist \ 
+"sipquery.txt" \
 "https://dataplane.org/sipquery.txt"
 
-"sipregistration.txt"\ 
+loadblacklist \ 
+"sipregistration.txt" \
 "https://dataplane.org/sipregistration.txt"
 
-"sshclient.txt"\ 
+loadblacklist \ 
+"sshclient.txt" \
 "https://dataplane.org/sshclient.txt"
 
-"sshpwauth.txt"\ 
+loadblacklist \ 
+"sshpwauth.txt" \
 "https://dataplane.org/sshpwauth.txt"
 
-"vncrfb.txt"\ 
+loadblacklist \ 
+"vncrfb.txt" \
 "https://dataplane.org/vncrfb.txt"
 
-"http-report.txt"\ 
+loadblacklist \ 
+"http-report.txt" \
 "http://www.dragonresearchgroup.org/insight/http-report.txt"
 
-"sshpwauth.txt"\ 
+loadblacklist \ 
+"sshpwauth.txt" \
 "https://www.dragonresearchgroup.org/insight/sshpwauth.txt"
 
-"vncprobe.txt"\ 
+loadblacklist \ 
+"vncprobe.txt" \
 "https://www.dragonresearchgroup.org/insight/vncprobe.txt"
 
-"block.txt"\ 
+loadblacklist \ 
+"block.txt" \
 "http://feeds.dshield.org/block.txt"
 
-"block.txt"\ 
+loadblacklist \ 
+"block.txt" \
 "http://feeds.dshield.org/block.txt"
 
-"block.txt"\ 
+loadblacklist \ 
+"block.txt" \
 "http://feeds.dshield.org/block.txt"
 
-"block.txt"\ 
+loadblacklist \ 
+"block.txt" \
 "http://feeds.dshield.org/block.txt"
 
-"emerging-Block-IPs.txt"\ 
+loadblacklist \ 
+"emerging-Block-IPs.txt" \
 "http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt"
 
-"compromised-ips.txt"\ 
+loadblacklist \ 
+"compromised-ips.txt" \
 "http://rules.emergingthreats.net/blockrules/compromised-ips.txt"
 
-"fullbogons-ipv4.txt"\ 
+loadblacklist \ 
+"fullbogons-ipv4.txt" \
 "http://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt"
 
-"greensnow.txt"\ 
+loadblacklist \ 
+"greensnow.txt" \
 "http://blocklist.greensnow.co/greensnow.txt"
 
-"hostsdeny.txt"\ 
+loadblacklist \ 
+"hostsdeny.txt" \
 "http://charles.the-haleys.org/ssh_dico_attack_hdeny_format.php/hostsdeny.txt"
 
-"ad_servers.txt"\ 
+loadblacklist \ 
+"ad_servers.txt" \
 "http://hosts-file.net/ad_servers.txt"
 
-"emd.txt"\ 
+loadblacklist \ 
+"emd.txt" \
 "http://hosts-file.net/emd.txt"
 
-"exp.txt"\ 
+loadblacklist \ 
+"exp.txt" \
 "http://hosts-file.net/exp.txt"
 
-"fsa.txt"\ 
+loadblacklist \ 
+"fsa.txt" \
 "http://hosts-file.net/fsa.txt"
 
-"grm.txt"\ 
+loadblacklist \ 
+"grm.txt" \
 "http://hosts-file.net/grm.txt"
 
-"hfs.txt"\ 
+loadblacklist \ 
+"hfs.txt" \
 "http://hosts-file.net/hfs.txt"
 
-"hjk.txt"\ 
+loadblacklist \ 
+"hjk.txt" \
 "http://hosts-file.net/hjk.txt"
 
-"mmt.txt"\ 
+loadblacklist \ 
+"mmt.txt" \
 "http://hosts-file.net/mmt.txt"
 
-"pha.txt"\ 
+loadblacklist \ 
+"pha.txt" \
 "http://hosts-file.net/pha.txt"
 
-"psh.txt"\ 
+loadblacklist \ 
+"psh.txt" \
 "http://hosts-file.net/psh.txt"
 
-"wrz.txt"\ 
+loadblacklist \ 
+"wrz.txt" \
 "http://hosts-file.net/wrz.txt"
 
-"malicious-ip-src.txt"\ 
+loadblacklist \ 
+"malicious-ip-src.txt" \
 "http://www.slcsecurity.com/feedspublic/IP/malicious-ip-src.txt"
 
-"malicious-ip-dst.txt"\ 
+loadblacklist \ 
+"malicious-ip-dst.txt" \
 "http://www.slcsecurity.com/feedspublic/IP/malicious-ip-dst.txt"
 
-"blacklist.txt"\ 
+loadblacklist \ 
+"blacklist.txt" \
 "http://www.unsubscore.com/blacklist.txt"
 
-"IP_Blacklist.txt"\ 
+loadblacklist \ 
+"IP_Blacklist.txt" \
 "http://malc0de.com/bl/IP_Blacklist.txt"
 
-"ip.txt"\ 
+loadblacklist \ 
+"ip.txt" \
 "http://www.malwaredomainlist.com/hostslist/ip.txt"
 
-"latest_blacklist.txt"\ 
+loadblacklist \ 
+"latest_blacklist.txt" \
 "http://www.myip.ms/files/blacklist/csf/latest_blacklist.txt"
 
-"blacklist_malware_dns.txt"\ 
+loadblacklist \ 
+"blacklist_malware_dns.txt" \
 "http://www.nothink.org/blacklist/blacklist_malware_dns.txt"
 
-"blacklist_malware_dns.txt"\ 
+loadblacklist \ 
+"blacklist_malware_dns.txt" \
 "http://www.nothink.org/blacklist/blacklist_malware_dns.txt"
 
-"blacklist_malware_http.txt"\ 
+loadblacklist \ 
+"blacklist_malware_http.txt" \
 "http://www.nothink.org/blacklist/blacklist_malware_http.txt"
 
-"blacklist_malware_http.txt"\ 
+loadblacklist \ 
+"blacklist_malware_http.txt" \
 "http://www.nothink.org/blacklist/blacklist_malware_http.txt"
 
-"blacklist_malware_irc.txt"\ 
+loadblacklist \ 
+"blacklist_malware_irc.txt" \
 "http://www.nothink.org/blacklist/blacklist_malware_irc.txt"
 
-"blacklist_malware_irc.txt"\ 
+loadblacklist \ 
+"blacklist_malware_irc.txt" \
 "http://www.nothink.org/blacklist/blacklist_malware_irc.txt"
 
-"blacklist_ssh_week.txt"\ 
+loadblacklist \ 
+"blacklist_ssh_week.txt" \
 "http://www.nothink.org/blacklist/blacklist_ssh_week.txt"
 
-"master.txt"\ 
+loadblacklist \ 
+"master.txt" \
 "http://nullsecure.org/threatfeed/master.txt"
 
-"iprep.txt"\ 
+loadblacklist \ 
+"iprep.txt" \
 "https://www.packetmail.net/iprep.txt"
 
-"iprep_CARISIRT.txt"\ 
+loadblacklist \ 
+"iprep_CARISIRT.txt" \
 "https://www.packetmail.net/iprep_CARISIRT.txt"
 
-"iprep_emerging_ips.txt"\ 
+loadblacklist \ 
+"iprep_emerging_ips.txt" \
 "https://www.packetmail.net/iprep_emerging_ips.txt"
 
-"iprep_mail.txt"\ 
+loadblacklist \ 
+"iprep_mail.txt" \
 "https://www.packetmail.net/iprep_mail.txt"
 
-"iprep_ramnode.txt"\ 
+loadblacklist \ 
+"iprep_ramnode.txt" \
 "https://www.packetmail.net/iprep_ramnode.txt"
 
-"proxy.txt"\ 
+loadblacklist \ 
+"proxy.txt" \
 "http://txt.proxyspy.net/proxy.txt"
 
-"proxy.txt"\ 
+loadblacklist \ 
+"proxy.txt" \
 "http://txt.proxyspy.net/proxy.txt"
 
-"proxy.txt"\ 
+loadblacklist \ 
+"proxy.txt" \
 "http://txt.proxyspy.net/proxy.txt"
 
-"proxy.txt"\ 
+loadblacklist \ 
+"proxy.txt" \
 "http://txt.proxyspy.net/proxy.txt"
 
-"CW_PS_IPBL.txt"\ 
+loadblacklist \ 
+"CW_PS_IPBL.txt" \
 "https://ransomwaretracker.abuse.ch/downloads/CW_PS_IPBL.txt"
 
-"LY_C2_IPBL.txt"\ 
+loadblacklist \ 
+"LY_C2_IPBL.txt" \
 "https://ransomwaretracker.abuse.ch/downloads/LY_C2_IPBL.txt"
 
-"LY_PS_IPBL.txt"\ 
+loadblacklist \ 
+"LY_PS_IPBL.txt" \
 "https://ransomwaretracker.abuse.ch/downloads/LY_PS_IPBL.txt"
 
-"RW_IPBL.txt"\ 
+loadblacklist \ 
+"RW_IPBL.txt" \
 "https://ransomwaretracker.abuse.ch/downloads/RW_IPBL.txt"
 
-"TC_PS_IPBL.txt"\ 
+loadblacklist \ 
+"TC_PS_IPBL.txt" \
 "https://ransomwaretracker.abuse.ch/downloads/TC_PS_IPBL.txt"
 
-"TL_C2_IPBL.txt"\ 
+loadblacklist \ 
+"TL_C2_IPBL.txt" \
 "https://ransomwaretracker.abuse.ch/downloads/TL_C2_IPBL.txt"
 
-"TL_PS_IPBL.txt"\ 
+loadblacklist \ 
+"TL_PS_IPBL.txt" \
 "https://ransomwaretracker.abuse.ch/downloads/TL_PS_IPBL.txt"
 
-"blacklist.txt"\ 
+loadblacklist \ 
+"blacklist.txt" \
 "http://sblam.com/blacklist.txt"
 
-"drop.txt"\ 
+loadblacklist \ 
+"drop.txt" \
 "http://www.spamhaus.org/drop/drop.txt"
 
-"edrop.txt"\ 
+loadblacklist \ 
+"edrop.txt" \
 "http://www.spamhaus.org/drop/edrop.txt"
 
-"toxic_ip_cidr.txt"\ 
+loadblacklist \ 
+"toxic_ip_cidr.txt" \
 "http://www.stopforumspam.com/downloads/toxic_ip_cidr.txt"
 
-"ips.txt"\ 
+loadblacklist \ 
+"ips.txt" \
 "https://www.threatcrowd.org/feeds/ips.txt"
 
-"banlist.txt"\ 
+loadblacklist \ 
+"banlist.txt" \
 "https://www.trustedsec.com/banlist.txt"
 
 #
