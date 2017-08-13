@@ -138,10 +138,10 @@ logmessage "ftmon.org blacklist script started"
 
 
 # Create temporary swap ipsets
-ipset create bad_ips_n hash:ip hashsize 4096 maxelem 262144 2> /dev/null
+ipset create bad_ips_n hash:ip hashsize 32768 maxelem 500000 2> /dev/null
 ipset flush bad_ips_n
 
-ipset create bad_nets_n hash:net hashsize 4096 maxelem 262144 2> /dev/null
+ipset create bad_nets_n hash:net hashsize 32768 maxelem 500000 2> /dev/null
 ipset flush bad_nets_n
 
 #
