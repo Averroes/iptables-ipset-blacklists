@@ -22,7 +22,8 @@ So we recommending using **cpulimit** to invoke blacklists.sh
 
 - setup your personal whitelist and blacklist (optional)
     -  /var/lib/blacklists/{whitelist.txt,blacklist.txt}
-- run _sudo blacklists.sh_  
+- run _sudo chmod +x blacklists.sh_
+- run _sudo ./blacklists.sh&_  
 - setup your _/etc/crontab_
 
     ~~~
